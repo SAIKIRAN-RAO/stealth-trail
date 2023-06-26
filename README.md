@@ -1,2 +1,2 @@
-# Trimtrail-Url
+# Trim-Url
 URL shortener service  
