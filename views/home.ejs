@@ -16,13 +16,13 @@
   <body>
     <h1>URL Shortener</h1>
     <% if (locals.id) { %>
-    <p>URL Generated: https://localhost:8000/url/<%= id %></p>
+    <p>URL Generated: http://localhost:4500/url/<%= id %></p>
     <% } %>
 
     <div>
       <form method="POST" action="/url">
         <label>Enter Your  URL</label>
-        <input type="text" name="url" placeholder="https://example.com" />
+        <input type="text" name="url" placeholder="http://example.com" />
         <button type="submit">Generate</button>
       </form>
     </div>
